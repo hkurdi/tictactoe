@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TicTacToe" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#9C27B0</item> <!-- Purple 500 -->
+        <item name="colorPrimaryVariant">#7B1FA2</item> <!-- Purple 700 -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- White -->
+
+        <!-- Secondary -->
+        <item name="colorSecondary">#80CBC4</item> <!-- Teal 200 -->
+        <item name="colorSecondaryVariant">#004D40</item> <!-- Teal 700 -->
+        <item name="colorOnSecondary">#000000</item> <!-- Black -->
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#19181F</item>
+        <item name="android:windowBackground">#19181F</item>
+    </style>
+
+    <style name="Theme.TicTacToe" parent="Base.Theme.TicTacToe" />
+</resources>

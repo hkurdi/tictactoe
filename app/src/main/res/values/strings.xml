@@ -1,0 +1,6 @@
+<resources>
+    <string name="tictactoe">Tic-Tac-Toe</string>
+    <string name="playgame">Play Game</string>
+    <string name="_0">0</string>
+    <string name="vs">vs</string>
+</resources>
