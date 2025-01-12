@@ -72,27 +72,27 @@ class MainActivity : AppCompatActivity() {
                             withAnimation(iv1, iv2, iv3)
                         } else if (iv4.tag == iv5.tag && iv5.tag == iv6.tag && iv6.tag != null) {
                             newScore(iv4.tag.toString())
-                            withAnimation(iv4,iv5,iv6)
+                            withAnimation(iv4, iv5, iv6)
                         } else if (iv7.tag == iv8.tag && iv8.tag == iv9.tag && iv9.tag != null) {
                             newScore(iv7.tag.toString())
-                            withAnimation(iv7,iv8,iv9)
+                            withAnimation(iv7, iv8, iv9)
                         } else if (iv1.tag == iv5.tag && iv5.tag == iv9.tag && iv9.tag != null) {
                             newScore(iv1.tag.toString())
-                            withAnimation(iv1,iv5,iv9)
+                            withAnimation(iv1, iv5, iv9)
                         } else if (iv3.tag == iv5.tag && iv5.tag == iv7.tag && iv7.tag != null) {
                             newScore(iv3.tag.toString())
-                            withAnimation(iv3,iv5,iv7)
+                            withAnimation(iv3, iv5, iv7)
                         } else if (iv1.tag == iv4.tag && iv4.tag == iv7.tag && iv7.tag != null) {
                             newScore(iv1.tag.toString())
-                            withAnimation(iv1,iv4,iv7)
+                            withAnimation(iv1, iv4, iv7)
                         } else if (iv2.tag == iv5.tag && iv5.tag == iv8.tag && iv8.tag != null) {
                             newScore(iv2.tag.toString())
-                            withAnimation(iv2,iv5,iv8)
+                            withAnimation(iv2, iv5, iv8)
                         } else if (iv3.tag == iv6.tag && iv6.tag == iv9.tag && iv9.tag != null) {
                             newScore(iv3.tag.toString())
-                            withAnimation(iv3,iv6,iv9)
+                            withAnimation(iv3, iv6, iv9)
                         } else if(tileCounter == 9) {
-                            Toast.makeText(this@MainActivity , "This game has no winner!" , Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@MainActivity , "This game has no winner!", Toast.LENGTH_SHORT).show()
                             newGame()
                             }
                 }
